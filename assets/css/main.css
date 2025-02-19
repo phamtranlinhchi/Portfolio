@@ -142,7 +142,7 @@ section{
 }
 
 .btn:hover{
-    color: var(--black);
+    color: var(--white);
     background-color: var(--orange);
     cursor: pointer;
 }
@@ -427,6 +427,7 @@ header #menu-btn:hover{
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     gap: 1rem;
+    display: none;
 }
 
 .counting .box{
@@ -434,7 +435,7 @@ header #menu-btn:hover{
     -ms-flex: 1 1 18rem;
         flex: 1 1 18rem;
     text-align: center;
-    background-color: #222;
+    background-color: #922828;
     padding: 2rem;
 }
 
